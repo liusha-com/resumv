@@ -1,0 +1,105 @@
+/* Same typeface as iodown.com; bundled locally under the SIL Open Font License. */
+:root {
+  font-family: "TikTok Sans Variable", Arial, sans-serif;
+  --font-sans: "TikTok Sans Variable", Arial, sans-serif;
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+body {
+  font-family: var(--font-sans);
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-sans);
+  font-weight: 650;
+}
+.hero h1 {
+  font-weight: 750;
+  letter-spacing: -0.045em;
+  line-height: 1.07;
+}
+.page-heading h1 {
+  font-weight: 680;
+  letter-spacing: -0.035em;
+}
+.brand {
+  font-weight: 800;
+  letter-spacing: -0.055em;
+}
+.nav-item {
+  font-size: 14px;
+  font-weight: 550;
+}
+.eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+.button {
+  font-weight: 600;
+  font-size: 14px;
+}
+.hero-copy > p {
+  font-size: 16px;
+}
+.section-heading p {
+  font-size: 14px;
+}
+.section-heading h2 {
+  font-weight: 650;
+  letter-spacing: -0.03em;
+}
+.template-caption h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.template-caption p {
+  font-size: 12px;
+}
+.field-label {
+  font-size: 13px;
+  font-weight: 500;
+}
+.hint {
+  font-size: 13px;
+}
+.template-stage .upstream-preview {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0 4px 20px #00000010;
+}
+.template-stage:has(.upstream-preview) {
+  padding: 22px 22px 0;
+  background: #f0f1f4;
+}
+.catalog-grid .template-stage:has(.upstream-preview) {
+  height: auto;
+  aspect-ratio: 0.8;
+  padding: 22px 22px 0;
+}
+.template-stage .upstream-preview {
+  transition: transform 0.2s;
+}
+.template-card:hover .upstream-preview {
+  transform: translateY(-4px);
+}
+@media (max-width: 700px) {
+  .hero h1 {
+    letter-spacing: -0.045em;
+  }
+  .nav-item {
+    font-size: 14px;
+  }
+  .template-caption h3 {
+    font-size: 14px;
+  }
+  .template-caption p {
+    font-size: 11px;
+  }
+  .catalog-grid .template-stage:has(.upstream-preview) {
+    padding: 12px 12px 0;
+  }
+}

@@ -1,0 +1,5 @@
+---
+const {name='file'} = Astro.props;
+const paths:Record<string,string>={home:'M3 10 12 3l9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z',file:'M14 3H5v18h14V8Zm0 0v5h5M8 12h8M8 16h6',grid:'M3 3h7v7H3ZM14 3h7v7h-7ZM3 14h7v7H3ZM14 14h7v7h-7Z',book:'M12 5C8 2 4 3 3 4v16c3-2 6-2 9 0 3-2 6-2 9 0V4c-3-2-6-2-9 1Zm0 0v15',mail:'M3 5h18v14H3Zm0 0 9 8 9-8',check:'m8 12 3 3 5-6M12 2l9 4v6c0 5-9 10-9 10S3 17 3 12V6Z',spark:'m12 2 3 7 7 3-7 3-3 7-3-7-7-3Z',folder:'M3 6h7l2 3h9v11H3Z',search:'M10.5 18a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15ZM16 16l5 5',menu:'M3 6h18M3 12h18M3 18h18',arrow:'M4 12h16m-6-6 6 6-6 6',download:'M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5',upload:'M12 16V4m-5 5 5-5 5 5M4 16v5h16v-5'};
+---
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={paths[name]||paths.file}/></svg>

@@ -1,0 +1,9 @@
+---
+import Head from '../components/seo/Head.astro';
+import ResumeBuilder from '../components/builder/ResumeBuilder';
+import '@fontsource-variable/tiktok-sans/wght.css';
+import '../styles/global.css';
+import '../styles/typography.css';
+const {kind='resume'}=Astro.props;
+---
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="icon" type="image/svg+xml" href="/favicon.svg"/><Head title={kind==='cv'?'CV editor':'Resume editor'} description="Edit your resume privately in your browser. Customize your template and download PDF, DOCX, text, or JSON." noindex={true}/></head><body><ResumeBuilder kind={kind} client:only="react"><div slot="fallback" class="builder-loading">Opening your resume workspace…</div></ResumeBuilder><noscript>This editor needs JavaScript to save and render your resume in your browser.</noscript></body></html>

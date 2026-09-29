@@ -1,0 +1,33 @@
+---
+import { reactiveTemplates } from '../../data/templates';
+import '@fontsource/lato/400.css';
+import '@fontsource/lato/700.css';
+import '../../styles/role-resume.css';
+const {role:r, blank=false} = Astro.props;
+const early = r.category==='Entry level'||r.slug==='nursing-student';
+const template = reactiveTemplates.find(t => t.id === r.template)!;
+const skills = r.skills.split(', ');
+---
+<div class="role-resume-stage">
+  <div class="role-resume-caption"><span>Inspired by {template.name}</span><span>{blank ? 'YOUR NEXT CHAPTER' : 'RESUME EXAMPLE'}</span></div>
+  <article class:list={['role-document', 'role-document-designed', {'role-document-blank':blank}]} style={`--resume-accent:${template.color}`} aria-label={blank?`${r.title} fill-in resume template`:`${r.title} full resume example`}>
+    <header>
+      <h2>{blank?'[Your name]':'Jordan Taylor'}</h2>
+      <p class="role-document-title">{r.title}</p>
+      <div class="role-contact"><span>{blank?'[City, State]':'Austin, TX'}</span><span>{blank?'[Email]':'jordan.taylor@example.com'}</span><span>{blank?'[Phone]':'+1 (202) 555-0147'}</span></div>
+    </header>
+    <div class="role-resume-columns">
+      <div class="role-resume-main">
+        <section><h3>Professional summary</h3><p>{blank?`[Describe your ${r.title.toLowerCase()} focus, relevant strengths, and one contribution you can support.]`:r.summary}</p></section>
+        {early&&<section><h3>Education & training</h3><h4>{blank?'[Your qualification]':r.degree}</h4><p>{blank?'[Institution]':'Example School / Training Provider'}</p><p class="role-document-meta">{blank?'[Completion or expected date]':r.educationDate}</p></section>}
+        <section><h3>{r.slug==='actor'?'Selected performance experience':early?'Projects & volunteer experience':'Experience'}</h3><h4>{blank?'[Your role or accurately labeled activity]':r.title}</h4><p class="role-employer">{blank?'[Organization]':r.company}</p><p class="role-document-meta">{blank?'[Location] · [Month Year – Month Year]':'Austin, TX · 2023 – Present'}</p><ul>{(blank?['[Action + task or project + context]','[How you approached the work + useful output]','[Verified result or responsibility; add numbers only when accurate]']:r.bullets).map((b:string)=><li>{b}</li>)}</ul></section>
+        <section><h3>Selected project</h3><h4>{blank?'[Relevant project name]':r.project}</h4><p>{blank?'[Explain your individual contribution, method, and outcome. Label academic or personal projects accurately.]':r.projectDescription}</p></section>
+      </div>
+      <aside class="role-resume-sidebar" aria-label="Resume skills and qualifications">
+        <section><h3>Skills</h3>{blank?<p>[Choose relevant skills you can demonstrate. Replace this prompt.]</p>:<ul class="role-skill-list">{skills.map((skill:string)=><li>{skill}</li>)}</ul>}</section>
+        {!early&&<section><h3>Education & training</h3><h4>{blank?'[Your qualification]':r.degree}</h4><p>{blank?'[Institution]':'Example School / Training Provider'}</p><p class="role-document-meta">{blank?'[Completion or expected date]':r.educationDate}</p></section>}
+        {blank&&<section><h3>Credentials, if relevant</h3><p>[Exact credential · issuer · current status or date. Remove this section if it does not apply.]</p></section>}
+      </aside>
+    </div>
+  </article>
+</div>

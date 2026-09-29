@@ -1,0 +1,19 @@
+---
+const {title, description, noindex=false, schema=[]} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site || 'https://resumv.com');
+const organization = {'@type':'Organization','@id':'https://resumv.com/#organization',name:'Resumv',url:'https://resumv.com/',sameAs:['https://github.com/liusha-com/resumv']};
+const structured = {'@context':'https://schema.org','@graph':[organization, ...schema]};
+---
+<title>{title} | resumv</title>
+<meta name="description" content={description}/>
+<link rel="canonical" href={canonical}/>
+<meta name="robots" content={noindex?'noindex, follow':'index, follow'}/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content={`${title} | resumv`}/>
+<meta property="og:description" content={description}/>
+<meta property="og:url" content={canonical}/>
+<meta property="og:site_name" content="Resumv"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content={`${title} | resumv`}/>
+<meta name="twitter:description" content={description}/>
+<script type="application/ld+json" set:html={JSON.stringify(structured).replace(/</g,'\\u003c')}/>

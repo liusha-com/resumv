@@ -1,0 +1,317 @@
+{
+  "generator": "scripts/generate-template-previews.mjs",
+  "items": [
+    {
+      "path": "/templates/onyx.jpg",
+      "template": "onyx",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/azurill.jpg",
+      "template": "azurill",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/bronzor.jpg",
+      "template": "bronzor",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/chikorita.jpg",
+      "template": "chikorita",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/ditgar.jpg",
+      "template": "ditgar",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/ditto.jpg",
+      "template": "ditto",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/gengar.jpg",
+      "template": "gengar",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/glalie.jpg",
+      "template": "glalie",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/kakuna.jpg",
+      "template": "kakuna",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/lapras.jpg",
+      "template": "lapras",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/leafish.jpg",
+      "template": "leafish",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/meowth.jpg",
+      "template": "meowth",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/pikachu.jpg",
+      "template": "pikachu",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/rhyhorn.jpg",
+      "template": "rhyhorn",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/scizor.jpg",
+      "template": "scizor",
+      "name": "David Kowalski",
+      "headline": "Game Developer | Unity & Unreal Engine Specialist"
+    },
+    {
+      "path": "/templates/roles/software-engineer.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Software Engineer"
+    },
+    {
+      "path": "/templates/roles/product-designer.jpg",
+      "template": "chikorita",
+      "name": "Jordan Taylor",
+      "headline": "Product Designer"
+    },
+    {
+      "path": "/templates/roles/marketing-manager.jpg",
+      "template": "onyx",
+      "name": "Jordan Taylor",
+      "headline": "Marketing Manager"
+    },
+    {
+      "path": "/templates/roles/data-analyst.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Data Analyst"
+    },
+    {
+      "path": "/templates/roles/registered-nurse.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Registered Nurse"
+    },
+    {
+      "path": "/templates/roles/teacher.jpg",
+      "template": "rhyhorn",
+      "name": "Jordan Taylor",
+      "headline": "Teacher"
+    },
+    {
+      "path": "/templates/roles/project-manager.jpg",
+      "template": "onyx",
+      "name": "Jordan Taylor",
+      "headline": "Project Manager"
+    },
+    {
+      "path": "/templates/roles/student.jpg",
+      "template": "rhyhorn",
+      "name": "Jordan Taylor",
+      "headline": "Student / Entry Level"
+    },
+    {
+      "path": "/templates/roles/customer-service.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Customer Service Representative"
+    },
+    {
+      "path": "/templates/roles/fitness-trainer.jpg",
+      "template": "onyx",
+      "name": "Jordan Taylor",
+      "headline": "Fitness Trainer"
+    },
+    {
+      "path": "/templates/roles/human-resources.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Human Resources Specialist"
+    },
+    {
+      "path": "/templates/roles/cashier.jpg",
+      "template": "rhyhorn",
+      "name": "Jordan Taylor",
+      "headline": "Cashier"
+    },
+    {
+      "path": "/templates/roles/executive-assistant.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Executive Assistant"
+    },
+    {
+      "path": "/templates/roles/account-manager.jpg",
+      "template": "onyx",
+      "name": "Jordan Taylor",
+      "headline": "Account Manager"
+    },
+    {
+      "path": "/templates/roles/electrician.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Electrician"
+    },
+    {
+      "path": "/templates/roles/administrative-assistant.jpg",
+      "template": "rhyhorn",
+      "name": "Jordan Taylor",
+      "headline": "Administrative Assistant"
+    },
+    {
+      "path": "/templates/roles/social-media-manager.jpg",
+      "template": "chikorita",
+      "name": "Jordan Taylor",
+      "headline": "Social Media Manager"
+    },
+    {
+      "path": "/templates/roles/licensed-practical-nurse.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Licensed Practical Nurse"
+    },
+    {
+      "path": "/templates/roles/construction-worker.jpg",
+      "template": "rhyhorn",
+      "name": "Jordan Taylor",
+      "headline": "Construction Worker"
+    },
+    {
+      "path": "/templates/roles/construction-project-manager.jpg",
+      "template": "onyx",
+      "name": "Jordan Taylor",
+      "headline": "Construction Project Manager"
+    },
+    {
+      "path": "/templates/roles/elementary-teacher.jpg",
+      "template": "rhyhorn",
+      "name": "Jordan Taylor",
+      "headline": "Elementary Teacher"
+    },
+    {
+      "path": "/templates/roles/it-support.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "IT Support Specialist"
+    },
+    {
+      "path": "/templates/roles/finance.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Financial Analyst"
+    },
+    {
+      "path": "/templates/roles/architect.jpg",
+      "template": "chikorita",
+      "name": "Jordan Taylor",
+      "headline": "Architect / Architectural Designer"
+    },
+    {
+      "path": "/templates/roles/electrical-engineer.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Electrical Engineer"
+    },
+    {
+      "path": "/templates/roles/executive.jpg",
+      "template": "onyx",
+      "name": "Jordan Taylor",
+      "headline": "Operations Executive"
+    },
+    {
+      "path": "/templates/roles/social-worker.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Social Worker"
+    },
+    {
+      "path": "/templates/roles/lawyer.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Lawyer / Attorney"
+    },
+    {
+      "path": "/templates/roles/nursing-student.jpg",
+      "template": "rhyhorn",
+      "name": "Jordan Taylor",
+      "headline": "Nursing Student"
+    },
+    {
+      "path": "/templates/roles/nurse-practitioner.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Nurse Practitioner"
+    },
+    {
+      "path": "/templates/roles/physician-assistant.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Physician Assistant"
+    },
+    {
+      "path": "/templates/roles/consultant.jpg",
+      "template": "onyx",
+      "name": "Jordan Taylor",
+      "headline": "Management Consultant"
+    },
+    {
+      "path": "/templates/roles/writer.jpg",
+      "template": "chikorita",
+      "name": "Jordan Taylor",
+      "headline": "Writer"
+    },
+    {
+      "path": "/templates/roles/actor.jpg",
+      "template": "rhyhorn",
+      "name": "Jordan Taylor",
+      "headline": "Actor / Theatre Performer"
+    },
+    {
+      "path": "/templates/roles/artist.jpg",
+      "template": "chikorita",
+      "name": "Jordan Taylor",
+      "headline": "Visual Artist / Illustrator"
+    },
+    {
+      "path": "/templates/roles/high-school-student.jpg",
+      "template": "rhyhorn",
+      "name": "Jordan Taylor",
+      "headline": "High School Student"
+    },
+    {
+      "path": "/templates/roles/bank-teller.jpg",
+      "template": "ditto",
+      "name": "Jordan Taylor",
+      "headline": "Bank Teller"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import {articles,examples} from '../../data/content';
+import EditorialNote from '../../components/seo/EditorialNote.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+export function getStaticPaths(){return articles.map(article=>({params:{slug:article.slug},props:{article}}));}
+const {article:a}=Astro.props;
+const updated='updated' in a?a.updated:'2026-09-21';
+const related=articles.filter(b=>b.slug!==a.slug).filter(b=>['resume-summary','skills-to-put-on-resume','resume-length','resume-keywords','first-resume'].includes(b.slug)).slice(0,3);
+const schema=[{'@type':'Article',headline:a.title,description:a.intro,dateModified:updated,author:{'@id':'https://resumv.com/#organization'},publisher:{'@id':'https://resumv.com/#organization'},mainEntityOfPage:`https://resumv.com/advice/${a.slug}/`}];
+---
+<Layout title={a.title} description={a.intro} schema={schema} active="Career advice"><article class="page-wrap article guide-body">
+<Breadcrumbs items={[{name:'Resume advice',url:'/advice/'},{name:a.title}]}/>
+<header class="page-heading"><span class="eyebrow">{a.category}</span><h1>{a.title}</h1><span class="card-tag">{Math.max(2,Math.ceil((a.intro+' '+a.sections.flat().join(' ')).split(/\s+/).length/200))} min read</span></header>
+<p class="guide-answer">{a.intro}</p>
+<nav class="guide-toc" aria-label="On this page"><strong>On this page</strong><ol>{a.sections.map(([heading],i)=><li><a href={`#section-${i+1}`}>{heading}</a></li>)}</ol></nav>
+{a.sections.map(([heading,text],i)=><section><h2 id={`section-${i+1}`}>{heading}</h2><p>{text}</p></section>)}
+{a.slug==='resume-summary'&&<div class="seo-actions"><a class="button primary" href="/tools/resume-summary-generator/">Draft a summary from your facts ↗</a></div>}
+<section class="guide-related"><h2>Put the advice into practice</h2><div class="topic-links"><a href="/builder/?new=1">Open the resume editor</a><a href="/templates/">Choose a resume template</a>{related.map(b=><a href={`/advice/${b.slug}/`}>{b.title}</a>)}</div></section>
+<section><h2>Sources and further reading</h2><p>These independent resources provide general context. Resumv's wording and fictional examples are original teaching material, not quotations or an endorsement by these organizations.</p><ul class="source-list"><li><a href="https://cloudfront.careeronestop.org/JobSearch/Resumes/ResumeGuide/formatting.aspx">CareerOneStop: resume formatting</a></li><li><a href="https://cloudfront.careeronestop.org/JobSearch/Resumes/ResumeGuide/work-experience.aspx">CareerOneStop: work experience</a></li><li><a href="https://cloudfront.careeronestop.org/JobSearch/Resumes/ResumeGuide/education.aspx">CareerOneStop: education</a></li></ul></section>
+<EditorialNote updated={updated}/>
+</article></Layout>

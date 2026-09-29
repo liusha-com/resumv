@@ -1,0 +1,7 @@
+.github-link { display: inline-flex; align-items: center; gap: 7px; flex-shrink: 0; min-height: 36px; padding: 7px 10px; border: 1px solid #dedee5; border-radius: 7px; background: #fff; color: #24262e; font-size: 12px; font-weight: 600; line-height: 1.2; white-space: nowrap; text-decoration: none; }
+.github-link:hover { background: #f5f5f8; border-color: #b7b8c2; }
+.github-link:focus-visible { outline: 2px solid #08a8a0; outline-offset: 3px; }
+.github-stars { display: inline-flex; align-items: center; gap: 4px; padding-left: 7px; border-left: 1px solid #e9eaee; font-variant-numeric: tabular-nums; }
+@media (max-width: 700px) { .github-label { display: none; } .github-link { padding: 7px; gap: 5px; } }
+@media (max-width: 400px) { .header { padding-inline: 12px; } .header-actions { gap: 6px; } .header-actions > .button { max-width: 100px; text-align: center; } }
+@media (max-width: 700px) { .builder-app .builder-topbar { flex-wrap: wrap; height: auto; min-height: 100px; padding-block: 8px; gap: 6px; } .builder-topbar .builder-top-actions { width: 100%; justify-content: flex-end; } .builder-top-actions .github-link { margin-left: auto; } }

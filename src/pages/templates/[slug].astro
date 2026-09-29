@@ -1,0 +1,24 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import {examples} from '../../data/content';
+import {reactiveTemplates} from '../../data/templates';
+import RoleDocument from '../../components/seo/RoleDocument.astro';
+import EditorialNote from '../../components/seo/EditorialNote.astro';
+import Breadcrumbs from '../../components/seo/Breadcrumbs.astro';
+export function getStaticPaths(){return examples.map(role=>({params:{slug:role.slug},props:{role}}));}
+const {role:r}=Astro.props;
+const template=reactiveTemplates.find(t=>t.id===r.template)!;
+const title=`${r.searchName} Resume Template — Free to Edit & Download`;
+const description=`Use a free ${r.title.toLowerCase()} resume template with editable role-specific example content. Customize in your browser and export PDF or editable DOCX.`;
+---
+<Layout title={title} description={description} active="Resume templates"><div class="page-wrap">
+<Breadcrumbs items={[{name:'Resume templates',url:'/templates/'},{name:r.title}]}/>
+<header class="page-heading"><span class="eyebrow">{r.category} · EDITABLE ROLE TEMPLATE</span><h1>{r.searchName} resume template<span class="pink">.</span></h1><p>Start with the role-specific example shown below, then replace it with your own experience. Edit online, preview each page, and download without an account or payment.</p></header>
+<div class="seo-actions"><a class="button primary" href={`/builder/?example=${r.slug}`}>Use this template ↗</a><a class="button secondary" href={`/builder/?example=${r.slug}&preset=blank`}>Start blank</a><a class="button secondary" download href={`/downloads/${r.slug}-template.txt`}>Download fill-in text</a></div>
+<p class="hint">Fictional teaching sample. Replace names, dates, credentials, and results before applying.</p><div class="role-layout"><RoleDocument role={r}/><aside class="role-notes" aria-label="Template details"><section class="content-card"><h2>Your starting layout</h2><img class="role-template-image" src={`/templates/roles/${r.slug}.jpg`} alt={`${r.title} resume in the ${template.name} layout`} width="600" height="848" loading="lazy"/><p>{template.name}, with a role-specific section plan. This preview is generated from the same content and layout loaded by Use this template.</p></section><section class="content-card"><h2>What to emphasize</h2><p>{r.focus}</p></section><section class="content-card"><h2>Skills to evaluate</h2><p>{r.skills}</p><p>Use this template loads the complete fictional example shown here. Replace every claim with your own facts, or choose Start blank to keep only the section plan.</p></section></aside></div>
+<section class="seo-section"><h2>Fill in the template with useful evidence</h2><table class="seo-table"><thead><tr><th>Section</th><th>What to add</th></tr></thead><tbody><tr><td>Introduction</td><td>Your accurate professional focus, relevant strengths, and one supported contribution.</td></tr><tr><td>Experience</td><td>{r.focus}</td></tr><tr><td>Project</td><td>For inspiration: {r.project}. {r.projectDescription} Use a project you actually completed.</td></tr><tr><td>Education</td><td>Your actual qualification, institution, and completion status. The example uses {r.degree}; this is not a universal entry requirement.</td></tr><tr><td>Final check</td><td>{r.avoid}</td></tr></tbody></table></section>
+<section class="seo-section"><h2>Download options</h2><p>PDF preserves the layout shown in the editor. DOCX creates an editable document with main and sidebar sections and does not reproduce every visual detail of the PDF template. Text is useful for plain-text applications; JSON is a backup you can reopen in Resumv. Follow the employer's requested file type.</p><h2>Can I change the design?</h2><p>Yes. Switch among 15 layouts and adjust fonts, colors, margins, and section order. Your content stays in the browser. A different font or longer bullet can change pagination, so inspect the final export before sending it.</p></section>
+<section class="seo-section"><h2>Build your next draft</h2><div class="topic-links"><a href="/advice/resume-length/">Choose the right page length</a><a href="/advice/resume-font/">Choose a readable font</a><a href="/resume-builder/">How the free resume builder works</a></div></section>
+<EditorialNote updated={r.updated}/>
+</div></Layout>
+

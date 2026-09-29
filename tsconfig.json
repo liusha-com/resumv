@@ -1,0 +1,14 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "paths": {
+      "#react-pdf-renderer": ["./node_modules/@react-pdf/renderer"],
+      "@reactive-resume/fonts": ["./src/vendor/reactive-resume/fonts/index.ts"],
+      "@reactive-resume/*": ["./src/vendor/reactive-resume/*"]
+    }
+  },
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist", "src/vendor"]
+}

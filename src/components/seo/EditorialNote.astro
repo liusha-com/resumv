@@ -1,0 +1,7 @@
+---
+const {updated='2026-09-21', example=false} = Astro.props;
+---
+<div class="editorial-note">
+  <p><strong>Published by Resumv</strong> · Updated <time datetime={updated}>{new Date(updated+'T12:00:00Z').toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'})}</time></p>
+  <p>{example?'This is a fictional, AI-assisted teaching example, not a real candidate or a verified hiring outcome. Replace all names, dates, credentials, and numbers before applying.':'This guide was drafted with AI assistance. It provides general writing guidance and has not been independently reviewed by a career counselor.'} <a href="/editorial-policy/">How we create content</a> · <a href="https://github.com/liusha-com/resumv/issues">Report an issue</a></p>
+</div>

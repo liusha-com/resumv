@@ -1,0 +1,500 @@
+[
+  {
+    "slug": "skills-to-put-on-resume",
+    "title": "Skills to put on a resume: choose, prove, and organize them",
+    "category": "Resume advice",
+    "read": "5 min read",
+    "intro": "Choose skills that match the job and that you can demonstrate. A useful skills section is a short, relevant index to evidence elsewhere in your resume, not a collection of attractive keywords.",
+    "sections": [
+      [
+        "Start with the work the employer needs",
+        "Read the responsibilities and requirements separately. Highlight the tools, methods, and interpersonal abilities that appear in both. Then mark which you have actually used in work, study, volunteering, or a project. If the role asks for SQL and you have only used spreadsheets, do not list SQL to improve a match score. Put the skill you do have in context and explain relevant learning elsewhere."
+      ],
+      [
+        "Examples of skills for different jobs",
+        "A data analyst might list SQL, data validation, Tableau, and stakeholder presentations. An administrative assistant might list calendar coordination, records management, expense processing, and Excel. A cashier might list POS systems, register balancing, and customer service. These are options to evaluate, not a universal list. Check the role examples linked below for evidence-based ways to describe them."
+      ],
+      [
+        "Turn a claim into evidence",
+        "Weak: Excellent communication skills. Stronger: Presented a weekly inventory dashboard to six regional managers and documented follow-up decisions. Weak: Detail-oriented. Stronger: Reconciled three source tables and added five data-quality checks before publication. These examples are fictional; replace the context and numbers with your own. If you cannot explain when you used a skill, leave it out or label it as current training."
+      ],
+      [
+        "Organize a readable skills section",
+        "Group technical skills by purpose when the list is long: Languages, Analysis, or Tools. Keep related skills together and avoid progress bars that imply a measurement you cannot explain. Place the most relevant skills early, then use experience bullets to show how you applied them. Soft skills become more useful when demonstrated through actions rather than listed as adjectives."
+      ],
+      [
+        "Check your final selection",
+        "Remove duplicates, obsolete tools that do not matter to the role, and skills you cannot discuss in an interview. Use the employer terminology where accurate, spelling out uncommon abbreviations once. You do not need every term in a posting, and no keyword count guarantees an interview. Preview the exported document to make sure the section remains easy to scan."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "resume-summary",
+    "title": "What is a resume summary? Examples and a writing formula",
+    "category": "Resume advice",
+    "read": "5 min read",
+    "intro": "A resume summary is a short introduction that connects your relevant experience, strengths, and evidence to the role you want. It usually works best when it says something specific that the rest of your resume can support.",
+    "sections": [
+      [
+        "Summary, headline, and objective are different",
+        "A headline is a short professional label, such as Data Analyst | SQL and Tableau. A summary adds context about your work and contribution. An objective focuses on the opportunity you seek and may help explain a first role or a career change. You do not need all three. Choose the introduction that helps a reader understand your fit without repeating the same information."
+      ],
+      [
+        "Use role, strengths, and evidence",
+        "Draft one sentence about your professional focus, one about relevant strengths, and one about a concrete contribution if it adds value. Example: Data analyst using SQL and Python to build repeatable operational reports. Automated weekly reporting that saved the team 12 hours per month. This is illustrative, not a result to copy. A concise factual summary is stronger than unsupported labels such as exceptional or world-class."
+      ],
+      [
+        "Examples for different starting points",
+        "Entry level: Business student with project experience in spreadsheets, research, and event coordination. Organized a campus fundraiser and presented survey findings to a student committee. Career change: Customer service professional moving into operations coordination, with experience tracking cases, documenting processes, and following up across teams. Experienced professional: Project manager coordinating cross-functional delivery, risk tracking, and stakeholder decisions. Each version tells the reader what evidence to look for next."
+      ],
+      [
+        "Write the summary last",
+        "Complete your experience and skills first. Select the two or three points most relevant to the target role, then draft the introduction. Remove any sentence that could describe almost any applicant. If the summary is longer than the evidence section it introduces, shorten it. Use our local summary drafting tool for a starting structure, then revise every sentence for accuracy."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "resume-length",
+    "title": "How many pages should a resume be? A practical decision guide",
+    "category": "Resume advice",
+    "read": "5 min read",
+    "intro": "Use the shortest resume that presents the evidence relevant to the job clearly. One page often suits early-career applicants; two pages can be appropriate when additional relevant experience earns the space. Follow employer instructions first.",
+    "sections": [
+      [
+        "Does a resume have to be one page?",
+        "No universal one-page rule fits every application. A short work history or a focused internship application may fit comfortably on one page. An experienced applicant with several relevant roles may need a second page. The decision is about useful evidence and readability, not a target word count. A second page that repeats duties or lists unrelated history is less helpful than one that adds relevant projects or achievements."
+      ],
+      [
+        "What deserves a second page",
+        "Keep details that explain scope, progression, specialized experience, or a requirement in the posting. Compare every older role with your target role: does it show something the recent experience does not? Compress repeated duties into a brief line. You can shorten an early position without removing its title, employer, and dates when those details explain your work history."
+      ],
+      [
+        "How to shorten a resume without making it cramped",
+        "Remove duplicated skills, generic summaries, and long lists of routine duties. Combine related bullets and put the result near the beginning. Trim less relevant older details before shrinking the font or margins. In the builder, review the PDF page count after edits and check whether the second page contains meaningful content or just a few spillover lines."
+      ],
+      [
+        "CV length needs context",
+        "In US academic applications, a CV may include research, publications, teaching, presentations, and other scholarly work, so it can be longer than a job resume. Elsewhere, CV may mean the same short application document as resume. Read the institution or employer instructions and identify the document they actually need. Do not remove required material just to force an academic CV onto one page."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "resume-header",
+    "title": "Resume header examples: contact details that are easy to find",
+    "category": "Resume advice",
+    "read": "5 min read",
+    "intro": "A resume header identifies you and tells the employer how to reach you. Put your name, professional email, phone number, location, and a relevant portfolio or profile link in readable text.",
+    "sections": [
+      [
+        "A simple header example",
+        "Jordan Taylor | Data Analyst\nAustin, TX | jordan.taylor@example.com | +1 (202) 555-0147\nPortfolio: example.com\nThis fictional example shows the order, not contact information to reuse. Check your email and phone number character by character. A full street address is usually unnecessary for an initial resume unless the application specifically asks for it."
+      ],
+      [
+        "Choose links that support the application",
+        "A software engineer may link a relevant repository or project page; a designer may link a portfolio; a writer may link selected clips. Make sure the destination is public, current, and clearly yours. Avoid private client materials and links that require the recruiter to request access. Use a readable label rather than a long tracking URL."
+      ],
+      [
+        "Keep important information as text",
+        "Do not rely on a portrait, logo, or icon to communicate your identity or contact details. After PDF export, select and copy the header into plain text and confirm the information remains understandable. Follow the employer requested file format. Clear text helps readers and reduces avoidable parsing problems, but cannot guarantee the behavior of every application system."
+      ],
+      [
+        "Header versus headline",
+        "The header contains your identity and contact information. The headline is an optional short description of your professional focus. You can place it below your name. Avoid repeating your entire summary in the header or adding sensitive personal details that do not help explain your suitability for the role."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "resume-headline",
+    "title": "Resume headline examples for different career stages",
+    "category": "Resume advice",
+    "read": "5 min read",
+    "intro": "A resume headline is a short line that tells a reader your professional focus. Use an accurate role description and one or two relevant strengths, rather than a slogan or an inflated title.",
+    "sections": [
+      [
+        "Examples you can adapt",
+        "Data Analyst | SQL, Tableau, and Operational Reporting\nAdministrative Assistant | Scheduling and Records Coordination\nNursing Student | Supervised Clinical Placement Experience\nCustomer Service Representative | Case Resolution and CRM\nThese examples are fictional. Keep only words you can support in your experience, education, or project sections."
+      ],
+      [
+        "When you are changing careers",
+        "You can signal direction without claiming a position you have not held. For example: Customer Service Professional Transitioning to Operations Coordination. Follow with a summary explaining the transferable evidence. Do not use a protected professional title or an unearned credential just because it appears in the vacancy."
+      ],
+      [
+        "When you are starting out",
+        "Use your current stage plus a relevant area of work: Computer Science Student | Web Projects and Automated Testing. A student headline can focus the resume without pretending that coursework was paid employment. If a short headline adds no useful context, omit it and let education or experience lead."
+      ],
+      [
+        "Keep it consistent",
+        "The headline should agree with the rest of the document and the level of responsibility you can demonstrate. In the builder, use the Headline field under Personal details. Preview the exported line to make sure it does not wrap awkwardly or dominate your name."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "how-to-update-your-resume",
+    "title": "How to update your resume for a new application",
+    "category": "Resume advice",
+    "read": "5 min read",
+    "intro": "Start with the target job, then update your contact details, recent experience, relevant skills, and strongest evidence. An updated resume should reflect what you can do now and the role you are applying for.",
+    "sections": [
+      [
+        "Make a factual inventory first",
+        "Collect accurate titles, employment dates, recent projects, training, and outcomes. Check numbers against records you are allowed to use. Note changes in responsibility since your last version. If you cannot verify a percentage or revenue claim, describe the work and observable result without adding an invented measurement."
+      ],
+      [
+        "Replace rather than only append",
+        "Adding every new task makes the document longer without necessarily improving it. Compare your existing bullets with the target role. Replace old or repetitive duties with recent evidence that better supports the application. Move a relevant new certification into its own section and remove expired claims unless clearly labeled and still useful."
+      ],
+      [
+        "Review links, wording, and chronology",
+        "Open portfolio links, test your contact details, and check that month and year ranges are consistent. Explain promotions through separate titles where responsibilities changed. Use present tense for current activities and past tense for completed work. Avoid changing dates to hide gaps; use accurate chronology and relevant context."
+      ],
+      [
+        "Save a tailored version and a backup",
+        "Keep a master record of your experience and create a focused version for each application. Duplicate a saved document before major changes. Resumv stores work in this browser, so export a JSON backup as well as the submission file. Review the actual PDF pages, not only the editing form, before sending."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "resume-font",
+    "title": "Choosing a font for your resume: readability before decoration",
+    "category": "Resume advice",
+    "read": "5 min read",
+    "intro": "Choose a font that stays clear at normal reading size and exports reliably. Consistent hierarchy, spacing, and line length matter more than finding a supposedly perfect resume font.",
+    "sections": [
+      [
+        "Start with a readable family",
+        "The builder includes Lato, Helvetica, Times-Roman, and Courier for document text. Lato and Helvetica offer straightforward sans-serif options; Times-Roman gives a traditional serif style. Courier uses fixed-width characters and can consume more space. Compare a paragraph and a bullet list in the actual PDF before choosing."
+      ],
+      [
+        "Use size to create hierarchy",
+        "Make your name and section headings distinct, then keep body text comfortable to read. Start around 10–12 points for body text and adjust for the font, content, and page format. This is a practical starting range, not an ATS requirement. Avoid squeezing a long work history into one page by making every line tiny."
+      ],
+      [
+        "Keep emphasis predictable",
+        "Use bold for section headings or job titles and reserve italics for occasional secondary information. Avoid switching fonts between every section. Make dates and employers easy to distinguish without relying entirely on color. Check the document in grayscale if you expect it to be printed."
+      ],
+      [
+        "Test the exported document",
+        "Download the PDF and inspect it at normal size. Confirm characters display correctly, links are readable, and text can be selected. If the employer requests DOCX, use that format and recheck the editable layout. A font alone does not make a document ATS-compatible or guarantee correct parsing."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "resume-keywords",
+    "title": "Resume keywords: match the job without keyword stuffing",
+    "category": "Resume advice",
+    "read": "5 min read",
+    "intro": "Use the job posting to identify relevant terms, then show truthful evidence of those skills and responsibilities. Keywords help describe fit; repetition and hidden text do not create qualifications.",
+    "sections": [
+      [
+        "Build a small evidence map",
+        "Make three columns: requirement, your evidence, and where it belongs. For SQL, the evidence could be a reporting project; put it in Skills and describe the project in Experience. For stakeholder communication, use a presentation or coordination example. Leave unsupported requirements out of the resume rather than copying the entire posting."
+      ],
+      [
+        "Keep wording recognizable",
+        "Use the employer terminology when it accurately matches your work. Spell out uncommon acronyms on first use. Administrative keywords might include calendar management, expense processing, and records management; engineering terms should be tied to specific tests, designs, or tools. A keyword without context can be ambiguous."
+      ],
+      [
+        "Write for a human reader",
+        "Weak: SQL SQL SQL data SQL reporting. Stronger: Built weekly SQL reports and added validation checks before dashboard publication. The second version tells the reader what happened. Do not place keywords in white text, metadata, or unrelated sections. Review the document aloud and remove repeated phrases that add no information."
+      ],
+      [
+        "Use the checker as a prompt",
+        "The local checker compares sampled words and checks basic writing signals. It is not the employer ATS, does not know the recruiter criteria, and cannot predict selection. Review any missing term and add it only if it accurately describes your experience. Follow application instructions even when they differ from a generic checklist."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "resume-sections",
+    "title": "Parts of a resume: what to include and in what order",
+    "category": "Resume advice",
+    "read": "4 min read",
+    "intro": "Most job resumes need contact details, relevant experience, education, and skills. Add a summary, projects, certifications, or other sections when they help explain your fit for the application.",
+    "sections": [
+      [
+        "Choose the order around your evidence",
+        "Experienced applicants often lead with relevant work after a short introduction. Students may put education and projects before employment. Keep recognizable section names and reverse chronological order within a work-history section. The objective is to make your strongest relevant evidence easy to find, not to force every applicant into the same sequence."
+      ],
+      [
+        "What belongs in work experience",
+        "Include employer, title, dates, and a few specific contributions. Describe the context and your action, then a result or useful output. When space is limited, prioritize recent relevant work. You can include volunteering or project work, but label it accurately instead of presenting it as paid employment."
+      ],
+      [
+        "Add optional sections with a purpose",
+        "Projects can demonstrate skills outside employment; certifications can show current qualifications; publications may matter in research roles. Interests are useful only when they contribute relevant context. A section with a heading and no meaningful content is a distraction. Remove empty optional sections before export."
+      ],
+      [
+        "Check the reader journey",
+        "Read only your headings, titles, and first bullet under each role. Can someone understand the kind of work you do? Then inspect the contact details and dates. Use the Layout panel to reorder sections, and review the PDF after changes so page breaks do not separate a heading from its content."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "resume-formats",
+    "title": "Types of resumes: chronological, combination, and skills-based",
+    "category": "Resume advice",
+    "read": "4 min read",
+    "intro": "Choose a format that makes your relevant experience easy to verify. Reverse chronological layouts emphasize work history; combination layouts introduce key strengths before the timeline; skills-based layouts organize evidence by capability.",
+    "sections": [
+      [
+        "Reverse chronological",
+        "List the most recent position first and work backward. This structure is useful when recent experience directly supports the target role. Keep dates, employer, and title together so progression is clear. Use achievements and meaningful responsibilities rather than repeating the same duties under each position."
+      ],
+      [
+        "Combination format",
+        "Open with a focused summary and skills, then include a dated work history. This can help career changers show transferable strengths without hiding chronology. For example, a customer service professional moving into operations could highlight tracking, coordination, and documentation, then show where those skills were used."
+      ],
+      [
+        "What is a skills-based resume?",
+        "A skills-based resume groups examples under capabilities such as Analysis, Customer Support, or Project Coordination. It can help organize experience gained across different settings, but readers still need to understand when and where you worked. Retain a concise employment or project history and avoid using the structure to obscure facts."
+      ],
+      [
+        "Choose content before decoration",
+        "A template controls appearance; a format controls how evidence is organized. You can make a restrained visual template work as a chronological or combination resume by changing section order. Compare both using the same facts and choose the one that makes the target-role connection clearest."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "how-far-back-should-a-resume-go",
+    "title": "How far back should a resume go? Choose relevant history",
+    "category": "Resume advice",
+    "read": "4 min read",
+    "intro": "Let relevance and application instructions guide how much work history you include. Recent experience usually deserves the most detail, while older roles can be summarized when they still explain a valuable qualification or career progression.",
+    "sections": [
+      [
+        "Avoid a rigid year cutoff",
+        "A fixed number of years cannot account for every role. A specialist may need an older project to demonstrate a rare skill; someone changing fields may need transferable work from an earlier position. An employer application form may ask for a complete history even when your resume is selective. Answer the form accurately rather than treating it like an edited marketing document."
+      ],
+      [
+        "How many jobs should you list?",
+        "Include enough roles to show relevant experience and understandable progression. If three recent jobs provide the needed evidence, six older entries may add little. You can compress earlier positions to employer, title, and dates when their details repeat newer work. Keep a fuller private record to complete applications and prepare for interviews."
+      ],
+      [
+        "Handle repeated duties and gaps honestly",
+        "Do not change dates or combine separate employers into a fictional continuous role. If you include a career break, a concise factual label may be enough. Focus on relevant learning, projects, or volunteering only when they actually occurred. You do not need to disclose private personal information to explain every month on a resume."
+      ],
+      [
+        "Review the tradeoff",
+        "For each older entry, ask what the reader learns that is not already established. Retain distinctive scope, experience, or qualifications. Remove detail that crowds out more useful recent evidence. Then check whether your dates and titles still tell a coherent, accurate story."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "resume-references",
+    "title": "References on a resume: when and how to provide them",
+    "category": "Resume advice",
+    "read": "4 min read",
+    "intro": "Follow the employer instructions. When references are requested separately, prepare a separate reference sheet instead of using resume space for contact details that are not needed at the first review.",
+    "sections": [
+      [
+        "Ask permission before listing someone",
+        "Confirm that each person is willing to serve as a reference, verify their current title and preferred contact details, and explain the type of role you are pursuing. Do not publish a reference phone number or email on a public resume example or portfolio. Choose people who can discuss relevant work rather than only someone with an impressive title."
+      ],
+      [
+        "How many references should you have?",
+        "Use the number requested by the employer. If the request does not specify a number, ask the recruiter what they need or prepare a small set of relevant contacts. There is no magic count that improves an application. Quality, permission, and relevance matter more than length."
+      ],
+      [
+        "A reference-sheet structure",
+        "Use your own name and contact details at the top. For each reference, include name, role, organization, preferred contact method, and your professional relationship, with consent. Example relationship: Supervised my reporting project from 2023 to 2024. Keep the document private and share it through the requested application channel."
+      ],
+      [
+        "Keep resume space useful",
+        "A line saying References available on request often adds less than a concrete project or achievement. If the posting explicitly asks for references in the resume, follow that instruction. Otherwise, keep the main document focused on your qualifications and prepare the reference sheet for the appropriate stage."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "resume-certifications",
+    "title": "How to put certifications on a resume accurately",
+    "category": "Resume advice",
+    "read": "4 min read",
+    "intro": "List the certification name, issuing organization, and relevant date or status. Distinguish a completed certification from a course, exam preparation, or a credential still in progress.",
+    "sections": [
+      [
+        "Use a clear entry",
+        "A simple structure is Certification name — Issuing organization — Earned month and year. Include an expiration date or current status when it matters. Use the credential official name so the reader can identify it. Add a verification link only if it is public, appropriate, and does not expose sensitive information."
+      ],
+      [
+        "Separate licenses, certifications, and courses",
+        "A professional license, an industry certification, and course attendance are not interchangeable. If you completed training but have not passed the certification exam, label the training accurately. Do not add letters after your name that you have not earned. For regulated roles, check the actual vacancy and relevant licensing authority."
+      ],
+      [
+        "Where to place the section",
+        "Put a required, current qualification where it is easy to find, especially in healthcare or licensed trades. A certification section near education may work when it supports rather than defines the role. Avoid making a minor unrelated course more prominent than relevant work experience."
+      ],
+      [
+        "Handle in-progress learning",
+        "State the training or credential as in progress and include an expected completion date only when realistic. Do not imply it is currently held. Review older certifications before applying; renew, remove, or clearly label expired items according to their relevance and the application requirements."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "resume-promotions",
+    "title": "How to show a promotion on your resume",
+    "category": "Resume advice",
+    "read": "4 min read",
+    "intro": "Show each title and its dates when a promotion changed your responsibilities. Group roles under one employer to make progression clear, and explain the scope you gained with the new position.",
+    "sections": [
+      [
+        "Example with different responsibilities",
+        "Example Services Group\nSenior Analyst — 2024 to Present\nLed weekly reporting reviews and mentored two junior analysts.\nAnalyst — 2022 to 2024\nBuilt SQL reports and documented data checks.\nThis fictional structure shows one employer and two roles. Use accurate dates and responsibilities from your own history."
+      ],
+      [
+        "When responsibilities were similar",
+        "If the change was mainly a title adjustment, you can list the two titles with their date ranges under one employer and share a concise set of bullets. Make the transition explicit. Avoid repeating identical bullets simply to make the promotion look larger than it was."
+      ],
+      [
+        "Show what changed",
+        "Explain new decision authority, project scope, team responsibility, or complexity. For example, moved from producing reports to coordinating the reporting schedule and reviewing outputs. Use numbers only when they are supportable. A title alone does not tell a recruiter what the progression meant."
+      ],
+      [
+        "Keep chronology readable",
+        "Do not merge title dates into a range that makes it appear you held the senior role throughout your employment. If roles overlapped, describe the arrangement accurately. Preview your exported file and make sure the employer name applies clearly to each position."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "resume-education",
+    "title": "Education on a resume: degrees, coursework, and high school",
+    "category": "Resume advice",
+    "read": "4 min read",
+    "intro": "List the education or training relevant to the application, with accurate completion status. Students can place education early; experienced applicants may place it after work history.",
+    "sections": [
+      [
+        "Use clear status and dates",
+        "State the qualification, institution, field, and completion or expected graduation date. If you attended but did not complete a degree, do not imply that it was awarded. You can describe relevant coursework or credits when accurate and useful. Follow application instructions when they ask for more complete education history."
+      ],
+      [
+        "Should you include high school?",
+        "High school is relevant when it is your current or highest completed education, especially for a first job. Once later education and experience demonstrate the needed qualifications, high school often adds less value. Keep it when specifically requested or when it provides relevant context that is not already covered."
+      ],
+      [
+        "Relevant coursework and projects",
+        "Choose coursework that demonstrates a requirement rather than copying your whole transcript. Add a project with your individual contribution: analyzed a public dataset, presented a research finding, or built a prototype. Label class work as academic work. A project description often shows more than a course title alone."
+      ],
+      [
+        "Field of study on application forms",
+        "A form may ask for a major or course of study. Use your actual program designation; for general secondary education, do not invent a university-style major. Follow the form instructions or ask the employer if the options do not fit. Keep this information consistent with the resume."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "cover-letter-vs-resume",
+    "title": "Cover letter vs resume: what each document should do",
+    "category": "Resume advice",
+    "read": "4 min read",
+    "intro": "A resume presents structured evidence of your qualifications. A cover letter connects selected evidence to a specific opportunity and explains your interest. They should support each other without repeating the same content word for word.",
+    "sections": [
+      [
+        "What the resume does",
+        "Use headings, dates, and concise bullets to show experience, education, and relevant skills. A reader should be able to locate qualifications quickly. Tailor the evidence to the role, but keep titles, credentials, and dates accurate. The resume can stand on its own when no cover letter is requested."
+      ],
+      [
+        "What the cover letter adds",
+        "Name the role, give a specific reason for your interest, and develop one or two relevant examples. Explain why the work matters to the organization rather than repeating every bullet. A concise three- or four-paragraph draft is a useful starting structure, but follow any stated word or page limit."
+      ],
+      [
+        "Is a CV a cover letter?",
+        "No. A CV describes qualifications and experience; a cover letter is a message about a particular application. In US academic contexts, a CV often includes publications, research, and teaching. In other contexts, CV may mean a short resume. Read the application requirements to understand which documents are requested."
+      ],
+      [
+        "Check consistency before sending",
+        "Make sure employer names, role names, dates, and claims agree across both documents. Remove a previous employer name from a reused letter. Save files with clear names and use the submission format requested. Do not send an additional document if the instructions explicitly say not to."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "how-to-end-a-cover-letter",
+    "title": "How to end a cover letter with a clear next step",
+    "category": "Resume advice",
+    "read": "4 min read",
+    "intro": "Close by connecting your contribution to the role, thanking the reader, and expressing interest in a discussion. Keep the ending short and avoid promises about outcomes you cannot control.",
+    "sections": [
+      [
+        "A concise closing example",
+        "I would welcome the opportunity to discuss how my reporting and data-validation experience could support your operations team. Thank you for considering my application.\nSincerely,\nJordan Taylor\nThis is a fictional example. Replace the contribution and team reference with details that genuinely fit your application."
+      ],
+      [
+        "Make the last paragraph earn its place",
+        "The closing can reinforce the one contribution you want the reader to remember. It does not need a new achievement, a long summary, or a demand for a response. If you mention availability, make it accurate and relevant to the application process."
+      ],
+      [
+        "Match the tone to the letter",
+        "Use a professional sign-off and the same name that appears on your resume. Avoid exaggerated enthusiasm, pressure, or a claim that you are unquestionably the best candidate. Specific interest is more convincing than a generic slogan. Read the ending with the opening to ensure they refer to the same role and organization."
+      ],
+      [
+        "Cover letter length and submission details",
+        "Aim for one page with three or four focused paragraphs unless the application specifies a different length. A short opening, one or two evidence paragraphs, and a concise closing usually provide enough structure. If the letter is running long, cut repeated resume details before shrinking text. Follow any stated word limit or upload requirement. Verify the role title, company name, contact information, and attachment names. A good ending cannot compensate for a letter addressed to the wrong employer."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "first-resume",
+    "title": "How to make a resume for your first job",
+    "category": "Resume advice",
+    "read": "4 min read",
+    "intro": "Start with education, projects, volunteering, and part-time responsibilities that show useful skills. You can write a clear first-job resume without pretending to have a professional work history.",
+    "sections": [
+      [
+        "Collect evidence beyond employment",
+        "List school projects, clubs, caregiving responsibilities you choose to share, volunteering, and informal work. Identify what you actually did: organized materials, handled a schedule, researched a topic, or helped customers. Describe your contribution rather than the whole group achievement. Label the setting accurately."
+      ],
+      [
+        "A first-job bullet example",
+        "Weak: Member of school club. Stronger: Coordinated supplies for a club event attended by 60 students and checked deliveries against a shared list. The second version makes the action and context visible. It is a fictional example; use only numbers and responsibilities you can support. Results do not always need a percentage."
+      ],
+      [
+        "Choose a simple structure",
+        "Use contact details, a short introduction if helpful, education, projects or volunteer experience, and relevant skills. Put expected graduation clearly next to the qualification. Keep empty experience sections out of the final file. Our high school student and entry-level examples show ways to organize non-employment evidence."
+      ],
+      [
+        "Tailor and review",
+        "Read the first-job posting and select examples showing the requested abilities, such as reliable scheduling, communication, or attention to detail. Avoid generic lists of strengths with no evidence. Ask someone you trust to check clarity, verify your contact details, and inspect the exported pages before applying."
+      ]
+    ],
+    "updated": "2026-09-21"
+  },
+  {
+    "slug": "career-change",
+    "title": "Career change resume: make transferable experience clear",
+    "category": "Resume advice",
+    "read": "4 min read",
+    "intro": "A career change resume connects your existing evidence to the new role. Explain the direction briefly, translate relevant responsibilities into clear language, and show any training or projects that support the transition.",
+    "sections": [
+      [
+        "Find the shared work",
+        "Compare your previous work with the target role at task level. A customer service role may demonstrate case tracking, documentation, prioritization, and cross-team follow-up, which can support operations work. Name the transferable task rather than claiming that the two jobs are identical."
+      ],
+      [
+        "Rewrite for relevance without changing facts",
+        "Keep accurate job titles and dates. Reorder bullets so the most relevant contribution comes first and explain unfamiliar industry terms. Example: Maintained a case tracker and coordinated follow-up across support and operations. Do not rename yourself an operations manager if that was not your position."
+      ],
+      [
+        "Add a credible bridge",
+        "Relevant coursework, a portfolio project, volunteering, or current training can show commitment to the new field. Label learning as learning and distinguish independent projects from client work. A summary can explain the transition in one or two sentences, then point to the evidence in the document."
+      ],
+      [
+        "Choose structure that preserves chronology",
+        "A combination format can introduce transferable strengths before the work timeline. Retain dated employment entries so the reader can understand your progression. Tailor each application and use a cover letter when requested to explain why this particular role is a deliberate next step."
+      ]
+    ],
+    "updated": "2026-09-21"
+  }
+]

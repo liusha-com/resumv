@@ -1,0 +1,22 @@
+---
+import '../styles/global.css';
+import '@fontsource-variable/tiktok-sans/wght.css';
+import '../styles/typography.css';
+import Icon from '../components/Icon.astro';
+import GitHubLink from '../components/GitHubLink';
+import ProjectFooter from '../components/ProjectFooter';
+import Head from '../components/seo/Head.astro';
+import '../styles/seo.css';
+const {title = 'Resume templates, examples & tools for your next move', active = 'Home', description = 'Build and download your resume for free. Explore editable templates, complete job-specific examples, and practical resume advice. No account required.', noindex = false, schema = []} = Astro.props;
+const items = [['Home','/','home'],['Resume builder','/builder/','file'],['Resume templates','/templates/','grid'],['Cover letters','/cover-letter/','mail'],['Resume checker','/checker/','check'],['Career advice','/advice/','spark']];
+---
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="theme-color" content="#ffffff"/><link rel="icon" type="image/svg+xml" href="/favicon.svg"/><Head title={title} description={description} noindex={noindex} schema={schema}/></head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="header"><a class="brand" href="/" aria-label="Resumv home"><span class="brand-mark">r</span>resumv<span class="brand-dot">.</span></a><div class="header-actions"><GitHubLink client:load/><a class="my-docs" href="/documents/">My documents</a><a class="button primary small" href="/builder/">Create my resume <span>+</span></a><button class="menu-toggle icon-button" aria-label="Toggle navigation" aria-expanded="false"><Icon name="menu"/></button></div></header>
+<aside class="sidebar"><nav aria-label="Main navigation">{items.map(([name,url,icon])=><a href={url} class:list={['nav-item',{selected:active===name}]} aria-current={active===name?'page':undefined}><Icon name={icon}/><span>{name}</span>{name==='Resume checker'&&<span class="new-tag">NEW</span>}</a>)}</nav><div class="sidebar-divider"></div><a class:list={['nav-item',{selected:active==='My documents'}]} href="/documents/"><Icon name="folder"/>My documents</a><div class="sidebar-note"><span class="note-symbol">✦</span><strong>Your next chapter<br/>starts here.</strong><p>Big ambitions.<br/>A little help from resumv.</p><a href="/builder/">Let’s make it happen <span>↗</span></a></div><div class="sidebar-bottom"><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/help/">Help</a><a href="/editorial-policy/">Editorial policy</a><a href="/contact/">Contact</a><p>© {new Date().getFullYear()} resumv<br/>Made for your next move.</p></div></aside>
+<main id="main"><slot/><ProjectFooter client:load/></main><div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script>import '../scripts/app.ts';</script>
+</body></html>
+

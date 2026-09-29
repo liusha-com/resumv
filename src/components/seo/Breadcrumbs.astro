@@ -1,0 +1,4 @@
+---
+const {items} = Astro.props;
+---
+<nav class="seo-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a>{items.map((item:any)=><><span aria-hidden="true">/</span>{item.url?<a href={item.url}>{item.name}</a>:<span aria-current="page">{item.name}</span>}</>)}</nav>
