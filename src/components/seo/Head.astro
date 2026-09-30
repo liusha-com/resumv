@@ -16,4 +16,12 @@ const structured = {'@context':'https://schema.org','@graph':[organization, ...s
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content={`${title} | resumv`}/>
 <meta name="twitter:description" content={description}/>
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-K9BQT3MPCN"></script>
+<script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-K9BQT3MPCN');
+  </script>
+</>
 <script type="application/ld+json" set:html={JSON.stringify(structured).replace(/</g,'\\u003c')}/>

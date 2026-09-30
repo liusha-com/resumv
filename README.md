@@ -49,6 +49,8 @@ The project also includes a cover letter editor, a resume checker, career advice
 
 ## Privacy and data storage
 
+Production builds include Google Analytics 4 (`G-K9BQT3MPCN`) for website traffic and usage statistics; the development server does not load it. Google may receive page URLs, referrers, device/browser information and interaction events, and may use analytics cookies. No custom analytics events containing resume content or form values are added. Self-hosters should remove or replace the Google tag in `src/components/seo/Head.astro` before deploying.
+
 Resumv has no resume upload endpoint, cloud resume synchronization, or external AI service for processing resume content. Fonts are bundled locally, with no runtime dependency on a font CDN.
 
 Local storage gives you control over your data, with a few practical limits:
